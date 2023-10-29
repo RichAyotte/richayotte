@@ -1,0 +1,33 @@
+{
+	"description": "Rich Ayotte - Software Engineer",
+	"devDependencies": {
+		"@nuxt/devtools": "latest",
+		"@nuxt/image": "^1.0.0",
+		"@types/node": "^20.8.9",
+		"@vite-pwa/assets-generator": "^0.0.10",
+		"@vite-pwa/nuxt": "^0.1.1",
+		"eslint-config-ayotte": "^3.1.0",
+		"include-media": "^2.0.0",
+		"nuxt": "^3.8.0",
+		"sass": "^1.69.5",
+		"sass-loader": "^13.3.2",
+		"typescript": "^5.2.2",
+		"vite": "^4.5.0",
+		"vite-plugin-pwa": "^0.16.6",
+		"vue": "^3.3.7",
+		"vue-router": "^4.2.5"
+	},
+	"name": "rich-ayotte",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"generate:pwa": "pwa-assets-generator",
+		"lint": "eslint --fix *.{js,ts,vue}",
+		"postinstall": "nuxt prepare",
+		"preview": "nuxt preview"
+	},
+	"type": "module",
+	"version": "0.0.1"
+}
