@@ -9,21 +9,9 @@
 		<h1 class="title">Rich Ayotte</h1>
 		<h2 class="subtitle">Software Engineer</h2>
 		<div class="links">
-			<a
-				class="button"
-				href="https://www.linkedin.com/in/richayotte/"
-				target="_blank"
-			>LinkedIn</a>
-			<a
-				class="button"
-				href="https://stackoverflow.com/users/382228/richard-ayotte"
-				target="_blank"
-			>Stack Overflow</a>
-			<a
-				class="button"
-				href="https://github.com/RichAyotte"
-				target="_blank"
-			>Github</a>
+			<button-link href="https://www.linkedin.com/in/richayotte/">LinkedIn</button-link>
+			<button-link href="https://stackoverflow.com/users/382228/richard-ayotte">Stack Overflow</button-link>
+			<button-link href="https://github.com/RichAyotte">Github</button-link>
 		</div>
 <pre class="card"><code>const i = {
 	paints: [<strong>
@@ -59,6 +47,10 @@
 </section>
 </template>
 
+<script lang="ts" setup>
+import ButtonLink from '~/components/button-link.vue';
+</script>
+
 <style lang="scss" scoped>
 @use 'sass:color';
 @import '~/assets/styles/variables';
@@ -93,11 +85,14 @@
 }
 
 .links {
-	margin: 35px 0;
-	a {
-		border-radius: 5px;
-		display: inline-block;
-		margin: 0 10px;
+	align-content: center;
+	display: flex;
+	flex-flow: column wrap;
+	gap: 20px;
+	justify-content: center;
+	margin: 30px auto;
+	@include media('>500px') {
+		flex-direction: row;
 	}
 }
 
