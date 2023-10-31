@@ -12,6 +12,7 @@
 			<button-link href="https://www.linkedin.com/in/richayotte/">LinkedIn</button-link>
 			<button-link href="https://stackoverflow.com/users/382228/richard-ayotte">Stack Overflow</button-link>
 			<button-link href="https://github.com/RichAyotte">Github</button-link>
+			<button-link href="https://twitter.com/RichAyotte">𝕏</button-link>
 		</div>
 <pre class="card"><code>const i = {
 	paints: [<strong>
