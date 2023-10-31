@@ -71,28 +71,31 @@ import ButtonLink from '~/components/button-link.vue';
 }
 
 .title {
-	font-size: clamp(3rem, 8vw, 5rem);
-	letter-spacing: 1.2vw;
+	font-size: clamp(2.1rem, 7vw, 4.5rem);
+	letter-spacing: 0.1rem;
 	margin: 0;
 }
 
 .subtitle {
-	color: lighten($brand-grey, 35%);
-	font-size: clamp(0.8rem, 2.5vw, 3rem);
-	letter-spacing: 0.5rem;
+	color: lighten($brand-grey, 25%);
+	font-size: clamp(1.5rem, 4vw, 2.5rem);
+	letter-spacing: 0.1rem;
 	margin: 0;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 .links {
 	align-content: center;
 	display: flex;
 	flex-flow: column wrap;
-	gap: 20px;
+	gap: 1rem;
 	justify-content: center;
-	margin: 30px auto;
-	@include media('>500px') {
+	margin: 30px 20px;
+	@include media('>380px') {
 		flex-direction: row;
+	}
+	a {
+		font-size: clamp(1em, 1.1vw, 3em);
 	}
 }
 
@@ -102,13 +105,14 @@ import ButtonLink from '~/components/button-link.vue';
 	border: 3px solid darken($brand-orange, 10%);
 	color: white;
 	display: inline-block;
+	font-size: clamp(1em, 2.5vw, 1.2em);
 	mix-blend-mode: multiply;
 	padding: clamp(5px, 4vw, 45px);
+	position: relative;
 	tab-size: 4;
 	text-align: left;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 	width: clamp(300px, 80vw, 600px);
-	position: relative;
 	@include media('<=1500px') {
 		&::before {
 			background-image: url(/assets/images/ayotte-software-logo-greyscale-rotated90.svg);

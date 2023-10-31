@@ -26,15 +26,15 @@ $shadow-color: rgba(0, 0, 0, 0.4);
 .button {
 	text-decoration: none;
 	align-items: center;
-	background-color: lighten($brand-grey, 10%);
+	background-color: lighten($brand-grey, 20%);
 	border-radius: 5px;
 	border: none;
 	box-shadow: 0 5px 15px $shadow-color;
 	color: white;
 	cursor: pointer;
 	display: flex;
-	font-size: 16px;
-	gap: 5px;
+	font-size: 1.2rem;
+	gap: 1rem;
 	justify-content: center;
 	outline: none;
 	overflow: hidden;
@@ -43,7 +43,7 @@ $shadow-color: rgba(0, 0, 0, 0.4);
 	transition: all 0.3s ease-in-out;
 
 	&:hover {
-		background-color: lighten($brand-grey, 13%);
+		background-color: lighten($brand-grey, 25%);
 		box-shadow: 0 8px 20px darken($shadow-color, 100%);
 		transform: translateY(-4px);
 
