@@ -6,7 +6,7 @@
 			src="~/assets/images/headshot.jpg"
 			alt="Photo of Richard Ayotte"
 		/>
-		<h1 class="title">Rich Ayotte</h1>
+		<h1 class="title">Richard Ayotte</h1>
 		<h2 class="subtitle">Software Engineer</h2>
 		<div class="links">
 			<button-link href="https://www.linkedin.com/in/richayotte/">LinkedIn</button-link>
