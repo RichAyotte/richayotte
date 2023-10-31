@@ -3,7 +3,7 @@
 	"devDependencies": {
 		"@nuxt/devtools": "latest",
 		"@nuxt/image": "^1.0.0",
-		"@types/node": "^20.8.9",
+		"@types/node": "^20.8.10",
 		"@vite-pwa/assets-generator": "^0.0.10",
 		"@vite-pwa/nuxt": "^0.1.1",
 		"eslint-config-ayotte": "^3.1.0",
