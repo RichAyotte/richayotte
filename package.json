@@ -6,7 +6,7 @@
 		"@types/node": "^20.12.4",
 		"@vite-pwa/assets-generator": "^0.2.4",
 		"@vite-pwa/nuxt": "^0.6.0",
-		"eslint-config-ayotte": "^3.1.0",
+		"eslint-config-ayotte": "^3.2.0",
 		"include-media": "^2.0.0",
 		"nuxt": "^3.11.2",
 		"sass": "^1.74.1",
