@@ -34,6 +34,7 @@
 		`Jest`,
 	</strong>],
 	surfaces: [<strong>
+		`Bun`,
 		`Node.js`,
 		`Browsers`,
 	</strong>],
