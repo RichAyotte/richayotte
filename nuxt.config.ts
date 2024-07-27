@@ -2,9 +2,9 @@ import { defineNuxtConfig } from 'nuxt/config'
 import packageJson from './package.json'
 
 type PackageJson = {
-    name: string
-    version: string
-    description: string
+	name: string
+	version: string
+	description: string
 }
 
 const pkg: PackageJson = packageJson
@@ -49,6 +49,7 @@ export default defineNuxtConfig({
 			title: `Rich Ayotte`,
 		},
 	},
+	compatibilityDate: '2024-07-27',
 	css: ['@/assets/styles/global.scss'],
 	devtools: { enabled: false },
 	modules: ['@vite-pwa/nuxt'],
